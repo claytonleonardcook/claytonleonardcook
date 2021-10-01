@@ -2,13 +2,12 @@
 	import Fa from 'svelte-fa';
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { goto } from '$app/navigation';
-	import { slide } from 'svelte/transition';
 
 	let hidden = false;
 </script>
 
 <nav class="Navbar">
-	<ul in:slide out:slide>
+	<ul>
 		<li on:click={() => goto('/')}>Home</li>
 		<li on:click={() => goto('/resume')}>Resume</li>
 		<li on:click={() => goto('/blog')}>Blog</li>
@@ -20,13 +19,14 @@
 	.Navbar {
 		cursor: pointer;
 		margin-bottom: var(--spacing);
+		width: 100%;
 	}
 
 	.Navbar > ul {
 		display: grid;
 		grid-template-rows: 1fr;
 		grid-template-columns: auto auto auto auto;
-		gap: calc(var(--spacing)/3);
+		gap: 5px;
 		padding: 0;
 		margin: 0;
 		list-style: none;
@@ -39,6 +39,8 @@
 		background-color: var(--green);
 		padding: calc(var(--spacing) / 4);
 		font-size: 1rem;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.Navbar > ul > li:hover {

@@ -21,7 +21,7 @@
 		<div class="window-content">
 			<div>
 				<h2>{title}</h2>
-				<span>by Clayton Cook <span class="important">@ {date}</span></span>
+				<span>by Clayton Cook <span class="important date">@ {date}</span></span>
 			</div>
 			<slot />
 			<ul>
@@ -36,18 +36,17 @@
 
 <style>
 	.Window {
-		display: grid;
 		border-radius: var(--radius);
 		background-color: var(--black);
-		margin: calc(var(--spacing)/3) 0;
+		margin: var(--spacing);
 	}
 	.Window :global(img),
 	.Window :global(audio),
 	.Window :global(iframe),
 	.Window :global(video) {
-		display: block;
-		width: clamp(250px, 100%, 500px);
-		margin: 0 auto;
+		display: flex;
+		justify-self: center;
+		width: clamp(calc(var(--minWidth) / 2), 100%, var(--maxWidth));
 	}
 	.Window :global(img),
 	.Window :global(iframe),
@@ -94,6 +93,9 @@
 	div.window-content > div {
 		display: grid;
 		grid-template-rows: 1fr 1fr;
+	}
+	span.date {
+		white-space: nowrap;
 	}
 	div.window-content > ul {
 		padding: 0;

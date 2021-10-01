@@ -1,5 +1,5 @@
 <script>
-	import Navbar from "../components/Navbar.svelte";
+	import Navbar from '../components/Navbar.svelte';
 </script>
 
 <div class="App">
@@ -8,25 +8,22 @@
 	<footer>
 		<span>Clayton Leonard Cook</span>
 		<span>Software Engineer & Digital Artist</span>
-		<span class="contacts">
-			<a href="tel:+19897983815">(989)798-3815</a>
-			<a href="mailto:claytonleonardcook@protonmail.com">claytonleonardcook@protonmail.com</a>
-		</span>
+		<a href="tel:+19897983815">(989)798-3815</a>
+		<a href="mailto:claytonleonardcook@protonmail.com">claytonleonardcook@protonmail.com</a>
 	</footer>
 </div>
 
 <style>
 	.App {
-		width: clamp(280px, 100vw, 800px);
-		margin: 0 auto;
-		padding: 0 var(--spacing) calc(var(--spacing) / 2) var(--spacing);
+		width: clamp(var(--minWidth), 100%, var(--maxWidth));
 		font-size: 1rem;
 		color: white;
+		margin: 0 auto;
 	}
 	footer {
-		padding: 0 calc(var(--spacing) / 3);
+		margin-top: var(--spacing);
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
 	}
 </style>

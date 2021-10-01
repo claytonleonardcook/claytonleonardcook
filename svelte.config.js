@@ -4,7 +4,7 @@ import netlify from '@sveltejs/adapter-netlify';
 const config = {
 	kit: {
 		adapter: netlify(),
-		target: '#svelte'
+		target: 'body'
 	}
 };
 

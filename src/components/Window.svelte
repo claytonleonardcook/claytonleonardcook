@@ -1,28 +1,23 @@
 <script>
 	import Fa from 'svelte-fa';
-	import { faTimes } from '@fortawesome/free-solid-svg-icons';
+	import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 	export let title = '';
 	export let date = '00-00-0000';
 	export let tags = ['default'];
 	export let expanded = true;
 </script>
 
-<article class="Window">
-	<span class="window-bar" on:click={() => (expanded = !expanded)}>
-		<div>
-			<Fa icon={faTimes} rotate={expanded ? '45' : '0'} />
-		</div>
-		{#if !expanded}
-			<h2>{title}</h2>
-		{/if}
-	</span>
+<article>
+	<div on:click={() => (expanded = !expanded)}>
+		<Fa icon={faAngleRight} rotate={expanded ? '90' : '0'} />
+		<h2>
+			{title}
+			<span>by Clayton Cook <span class="important date">@ {date}</span></span>
+		</h2>
+	</div>
 	{#if expanded}
 		<hr />
 		<div class="window-content">
-			<div>
-				<h2>{title}</h2>
-				<span>by Clayton Cook <span class="important date">@ {date}</span></span>
-			</div>
 			<slot />
 			<ul>
 				<li>Tags:</li>
@@ -35,64 +30,46 @@
 </article>
 
 <style>
-	.Window {
+	article {
 		border-radius: var(--radius);
 		background-color: var(--black);
 		margin: var(--spacing);
 	}
-	.Window :global(img),
-	.Window :global(audio),
-	.Window :global(iframe),
-	.Window :global(video) {
+	article :global(img),
+	article :global(audio),
+	article :global(iframe),
+	article :global(video) {
 		display: flex;
 		justify-self: center;
 		width: clamp(calc(var(--minWidth) / 2), 100%, var(--maxWidth));
 	}
-	.Window :global(img),
-	.Window :global(iframe),
-	.Window :global(video) {
+	article :global(img),
+	article :global(iframe),
+	article :global(video) {
 		height: auto;
 	}
-	.Window :global(iframe),
-	.Window :global(video) {
+	article :global(iframe),
+	article :global(video) {
 		aspect-ratio: 1/1;
 	}
-	span.window-bar {
+	article > div:first-child {
 		display: grid;
 		grid-template-rows: 1fr;
-		grid-template-columns: auto 1fr;
+		grid-template-columns: 50px 1fr;
 		gap: 5px;
 		padding: calc(var(--spacing) / 2);
+		cursor: pointer;
 	}
-	span.window-bar > div {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 1.5rem;
-		border-radius: 50%;
-		height: var(--spacing);
-		width: var(--spacing);
-		padding: calc(var(--spacing) / 4);
-		background-color: var(--green);
-	}
-	span.window-bar > h2 {
-		display: flex;
-		justify-content: right;
-		align-self: center;
-		height: -moz-fit-content;
-		height: fit-content;
-		text-overflow: ellipsis;
-		white-space: nowrap;
+	article > div:first-child > h2 > span {
+		display: block;
+		font-size: 0.5em;
+		font-weight: normal;
 	}
 	div.window-content {
 		padding: calc(var(--spacing) / 2);
 	}
 	div.window-content > :global(*) {
 		margin: 0 auto calc(var(--spacing) / 2) auto;
-	}
-	div.window-content > div {
-		display: grid;
-		grid-template-rows: 1fr 1fr;
 	}
 	span.date {
 		white-space: nowrap;

@@ -1,12 +1,8 @@
 <script>
-	import Fa from 'svelte-fa';
-	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { goto } from '$app/navigation';
-
-	let hidden = false;
 </script>
 
-<nav class="Navbar">
+<nav>
 	<ul>
 		<li on:click={() => goto('/')}>Home</li>
 		<li on:click={() => goto('/resume')}>Resume</li>
@@ -16,13 +12,15 @@
 </nav>
 
 <style>
-	.Navbar {
+	nav {
 		cursor: pointer;
-		margin-bottom: var(--spacing);
-		width: 100%;
+		position: fixed;
+		top: 0;
+		width: 90%;
+		max-width: 650px;
 	}
 
-	.Navbar > ul {
+	nav > ul {
 		display: grid;
 		grid-template-rows: 1fr;
 		grid-template-columns: auto auto auto auto;
@@ -32,7 +30,7 @@
 		list-style: none;
 	}
 
-	.Navbar > ul > li {
+	nav > ul > li {
 		display: flex;
 		justify-content: center;
 		border-radius: 0 0 var(--radius) var(--radius);
@@ -41,9 +39,11 @@
 		font-size: 1rem;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		border: solid thin white;
+		border-top: none;
 	}
 
-	.Navbar > ul > li:hover {
+	nav > ul > li:hover {
 		text-decoration: underline;
 	}
 </style>

@@ -55,10 +55,15 @@
 	article > div:first-child {
 		display: grid;
 		grid-template-rows: 1fr;
-		grid-template-columns: 50px 1fr;
-		gap: 5px;
+		grid-template-columns: auto 1fr;
+		gap: var(--spacing);
 		padding: calc(var(--spacing) / 2);
 		cursor: pointer;
+	}
+	article > div:first-child > :global(svg) {
+		display: flex;
+		align-self: center;
+		font-size: 2em;
 	}
 	article > div:first-child > h2 > span {
 		display: block;

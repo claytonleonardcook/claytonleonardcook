@@ -14,10 +14,9 @@
 <style>
 	nav {
 		cursor: pointer;
-		position: fixed;
+		position: absolute;
 		top: 0;
-		width: 90%;
-		max-width: 650px;
+		width: clamp(var(--minWidth), 100%, var(--maxWidth));
 	}
 
 	nav > ul {
@@ -39,8 +38,6 @@
 		font-size: 1rem;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		border: solid thin white;
-		border-top: none;
 	}
 
 	nav > ul > li:hover {

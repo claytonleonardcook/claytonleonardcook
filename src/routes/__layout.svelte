@@ -1,29 +1,20 @@
 <script>
 	import Navbar from '../components/Navbar.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
-<div class="App">
+<div>
 	<Navbar />
 	<slot />
-	<footer>
-		<span>Clayton Leonard Cook</span>
-		<span>Software Engineer & Digital Artist</span>
-		<a href="tel:+19897983815">(989)798-3815</a>
-		<a href="mailto:claytonleonardcook@protonmail.com">claytonleonardcook@protonmail.com</a>
-	</footer>
+	<Footer />
 </div>
 
 <style>
-	.App {
+	div {
 		width: clamp(var(--minWidth), 100%, var(--maxWidth));
 		font-size: 1rem;
 		color: white;
+		padding: 25px 0;
 		margin: 0 auto;
-	}
-	footer {
-		margin-top: var(--spacing);
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr;
 	}
 </style>

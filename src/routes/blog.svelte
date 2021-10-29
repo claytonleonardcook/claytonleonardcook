@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	import { blogs } from '../blog.json';
-	import Window from '../components/Window.svelte';
+	import { blogs } from '$assets/blog.json';
+	import Window from '$components/Window.svelte';
 	let link = $page.query.get('link');
 	const { title, date, content, tags } = blogs[link];
 </script>

@@ -1,5 +1,5 @@
 <script>
-    import Window from "../components/Window.svelte";
+    import Window from "$components/Window.svelte";
 </script>
 
 <svelte:head>

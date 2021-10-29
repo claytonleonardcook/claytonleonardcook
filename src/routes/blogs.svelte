@@ -1,6 +1,6 @@
 <script>
-	import { blogs } from '../blog.json';
-	import BlogLink from '../components/BlogLink.svelte';
+	import { blogs } from '$assets/blog.json';
+	import BlogLink from '$components/BlogLink.svelte';
 </script>
 
 <svelte:head>

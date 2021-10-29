@@ -6,7 +6,7 @@
 	<ul>
 		<li on:click={() => goto('/')}>Home</li>
 		<li on:click={() => goto('/resume')}>Resume</li>
-		<li on:click={() => goto('/blog')}>Blog</li>
+		<li on:click={() => goto('/blogs')}>Blog</li>
 		<li on:click={() => goto('https://calendly.com/claytonleonardcook/30min')}>Calendly</li>
 	</ul>
 </nav>

@@ -1,0 +1,27 @@
+{
+    "education": [
+        {
+            "institute": "Institution Name",
+            "date": "2000 - Present",
+            "classes": ["CS116", "CS216", "PS130", "MATH120", "MATH140"]
+        }
+    ],
+    "jobs": [
+        {
+            "company": "Company Name",
+            "client": "Client Name",
+            "location": "Saginaw, MI",
+            "date": "2000 - Present",
+            "duties": ["Duty 1, Duty 2, Duty 3"],
+            "technologies": ["HTML5", "CSS3", "JavaScript"]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project Name",
+            "date": "2000",
+            "description": "This is a description.",
+            "technologies": ["HTML5", "CSS3", "JavaScript"]
+        }
+    ]
+}

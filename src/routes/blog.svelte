@@ -1,14 +1,13 @@
 <script>
-    import Window from "../components/Window.svelte";
+	import { page } from '$app/stores';
+	import { blogs } from '../blog.json';
+	import Window from '../components/Window.svelte';
+	let link = $page.query.get('link');
+	const { title, date, content, tags } = blogs[link];
 </script>
 
-<svelte:head>
-    <title>Clayton Leonard Cook | Blog</title>
-</svelte:head>
-
-<Window title="Default" tags={['default', 'tutorial','default', 'tutorial','default', 'tutorial']}>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec odio semper, aliquam ante id,
-		consequat ipsum.
-	</p>
+<Window {title} {date} {tags}>
+	{#each content as element}
+		{@html element}
+	{/each}
 </Window>

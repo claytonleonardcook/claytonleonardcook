@@ -12,7 +12,7 @@
 		<Fa icon={faAngleRight} rotate={expanded ? '90' : '0'} />
 		<h2>
 			{title}
-			<span>by Clayton Cook <span class="important date">@ {date}</span></span>
+			<span class="important date">@ {date}</span>
 		</h2>
 	</div>
 	{#if expanded}
@@ -20,7 +20,6 @@
 		<div class="window-content">
 			<slot />
 			<ul>
-				<li>Tags:</li>
 				{#each tags as tag}
 					<li class="tag">{tag}</li>
 				{/each}
@@ -81,6 +80,7 @@
 	}
 	div.window-content > ul {
 		padding: 0;
+		margin: 0;
 		list-style: none;
 	}
 	li {

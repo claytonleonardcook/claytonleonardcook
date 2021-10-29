@@ -1,9 +1,9 @@
 {
     "education": [
         {
-            "institute": "Institution Name",
-            "date": "2000 - Present",
-            "classes": ["CS116", "CS216", "PS130", "MATH120", "MATH140"]
+            "institute": "Saginaw Valley State University",
+            "date": "2019 - Present",
+            "classes": ["CS105", "CS146", "CS116", "CS216", "CS255", "PS130", "MATH120", "MATH140"]
         }
     ],
     "jobs": [

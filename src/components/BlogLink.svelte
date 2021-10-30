@@ -41,4 +41,8 @@
 		font-size: 0.5em;
 		font-weight: normal;
 	}
+
+	span.date {
+		white-space: nowrap;
+	}
 </style>

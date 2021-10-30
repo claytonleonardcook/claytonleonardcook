@@ -75,8 +75,12 @@
 	div.window-content > :global(*) {
 		margin: 0 auto calc(var(--spacing) / 2) auto;
 	}
+	article > div > h2,
 	span.date {
+		width: 90%;
 		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	div.window-content > ul {
 		padding: 0;

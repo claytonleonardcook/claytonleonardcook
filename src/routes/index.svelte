@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Window title="Introduction" date="09-30-2021" tags={['introduction', 'aboutme']}>
-	<img src="./self.jpg" alt="Clayton Cook"/>
+	<img src="./self2.jpg" alt="Clayton Cook"/>
 	<p>
 		&emsp;Hi, my name is Clayton and I'm currently a <span class="important">Computer Science Major</span> going for my <a href="https://www.svsu.edu/">Bachelors at Saginaw Valley State Univerity</a>. I originally started programming in high school with my brother making websites and games using <span class="important">HTML, CSS, and Javascript</span>. Eventually I started dabbling in <span class="important">Angular and JQuery</span> and learned a lot but eventually settled on <span class="important">React and Svelte</span> as my primary tools. However, I have independantly studied languages like <span class="important">Java, Python, C#, C/C++, etc</span>.
 	</p>

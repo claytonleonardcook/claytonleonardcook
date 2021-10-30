@@ -9,7 +9,7 @@
 
 <h2>Job Experiences</h2>
 {#each jobs as { company, client, location, date, duties, technologies }}
-	<Window title={company} {date} tags={technologies}>
+	<Window title={`${client}`} date={`${date} | ${location}`} tags={[...technologies, company]}>
 		<ul>
 			{#each duties as duty}
 				<li>{duty}</li>

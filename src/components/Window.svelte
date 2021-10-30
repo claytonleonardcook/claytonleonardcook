@@ -19,11 +19,11 @@
 		<hr />
 		<div class="window-content">
 			<slot />
-			<ul>
+			<div class="tags">
 				{#each tags as tag}
-					<li class="tag">{tag}</li>
+					<span class="tag">{tag}</span>
 				{/each}
-			</ul>
+			</div>
 		</div>
 	{/if}
 </article>
@@ -75,28 +75,28 @@
 	div.window-content > :global(*) {
 		margin: 0 auto calc(var(--spacing) / 2) auto;
 	}
-	article > div > h2,
-	span.date {
+	article > div > h2 {
 		width: 90%;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-	div.window-content > ul {
-		padding: 0;
-		margin: 0;
-		list-style: none;
+	div.tags {
+		display: flex;
+		overflow: scroll;
+		padding: 0 calc(var(--spacing) / 2);
+		-webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, transparent 100%);
+		mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, transparent 100%);
 	}
-	li {
-		display: inline-block;
-		margin: 0 5px 5px 0;
-		padding: 5px;
-		width: -moz-fit-content;
+	div.tags::-webkit-scrollbar {
+		width: 0;
+		height: 0;
+	}
+	span.tag {
+		margin: 0 5px;
+		text-align: center;
 		width: fit-content;
-	}
-	li.tag {
-		height: -moz-fit-content;
-		height: fit-content;
+		padding: 5px;
 		border-radius: var(--radius);
 		background-color: var(--green);
 	}

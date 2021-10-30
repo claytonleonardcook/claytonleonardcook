@@ -95,6 +95,7 @@
 	span.tag {
 		margin: 0 5px;
 		text-align: center;
+		white-space: nowrap;
 		width: fit-content;
 		padding: 5px;
 		border-radius: var(--radius);

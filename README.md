@@ -1,5 +1,4 @@
-## Clayton Leonard Cook | Software Engineer
-
+# Clayton Leonard Cook | Software Engineer
 **Saginaw, Michigan** | [claytonleonardcook@protonmail.com](mailto:claytonleonardcook@protonmail.com)
 
 <br/>
@@ -91,7 +90,7 @@ June&nbsp;2018 - July&nbsp;2018
 
 <br/>
 
-<h2 style="color: #02c39a;">Education</h2>
+## Education
 
 September&nbsp;2019 - Present
 ### **Saginaw&nbsp;Valley&nbsp;State&nbsp;University** | Bachelor&nbsp;of&nbsp;Science&nbsp;in&nbsp;Computer Engineering
@@ -104,7 +103,7 @@ September&nbsp;2019 - Present
 
 <br/>
 
-<h2 style="color: #02c39a;">Activites&nbsp;&amp;&nbsp;Accomplishments</h2>
+## Activites&nbsp;&amp;&nbsp;Accomplishments
 
 2022 - Present
 <br/>

@@ -12,8 +12,8 @@ August&nbsp;2022 - Present
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT
 <ul>
-    <li>Created and designed user interface for client dashboard.</li>
-    <li>Communicated with team to plan out best next steps for the project timeline.</li>
+    <li>Designed and developed user interface for client dashboard.</li>
+    <li>Worked with team to gather requirements and prioritized work.</li>
     <li>Discussed and implemented optimized ways to display large amounts of data.</li>
     <li>Researched offline web applications with backend payloads.</li>
 </ul>

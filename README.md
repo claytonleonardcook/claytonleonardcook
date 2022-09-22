@@ -124,3 +124,14 @@ September&nbsp;2019 - Present
 November&nbsp;2021
 <br/>
 **CS&nbsp;Department&nbsp;Coding&nbsp;Competition** | 2nd&nbsp;Place
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<img style="height: 21em; margin-right: 1em;" src="static/websiteqrcode.svg" />
+<img style="height: 21em; margin-left: 1em;" src="static/githubqrcode.svg" />

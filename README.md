@@ -134,5 +134,5 @@ November&nbsp;2021
 <br/>
 
 <p align="center">
-    <img style="height: 21em;" src="static/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 21em;" src="static/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 21em;" src="static/githubqrcode.svg" />
+    <img style="height: 15em;" src="static/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="static/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="static/githubqrcode.svg" />
 </p>

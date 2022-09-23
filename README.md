@@ -133,6 +133,6 @@ November&nbsp;2021
 <br/>
 <br/>
 
-<p style="text-align: center;">
+<p align="center">
     <img style="height: 21em;" src="static/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 21em;" src="static/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 21em;" src="static/githubqrcode.svg" />
 </p>

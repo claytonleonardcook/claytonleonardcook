@@ -5,11 +5,11 @@
 
 October&nbsp;2022 - Present
 ### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript
+<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT
-<img style="height: 1em;" src="static/expo.svg" />&nbsp;Expo
+<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="static/expo.svg" />&nbsp;Expo&nbsp;
 
 <ul>
     <li>Translated mockups to React Native components for reuse.</li>
@@ -27,7 +27,7 @@ August&nbsp;2022 - October&nbsp;2022
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT
+<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
 <ul>
     <li>Designed and developed user interface for client dashboard.</li>
     <li>Worked with team to gather requirements and prioritized work.</li>

@@ -3,7 +3,24 @@
 
 <br/>
 
-August&nbsp;2022 - Present
+October&nbsp;2022 - Present
+### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
+<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript
+<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
+<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT
+<img style="height: 1em;" src="static/expo.svg" />&nbsp;Expo
+
+<ul>
+    <li>Translated mockups to React Native components for reuse.</li>
+    <li>Implemented multiple general-use components for user interactions.</li>
+    <li>Streamlined development and client review process using Expo's EAS system for internal distrubution.</li>
+    <li>Created sanitized forms with responsive errors using Formik and Yup.</li>
+</ul>
+
+<br/>
+
+August&nbsp;2022 - October&nbsp;2022
 ### **Cellar&nbsp;Door @ Factimize** | Remote
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;

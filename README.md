@@ -1,5 +1,5 @@
 # Clayton Leonard Cook | Software Engineer
-**Saginaw, Michigan** | [claytonleonardcook@protonmail.com](mailto:claytonleonardcook@protonmail.com)
+**Saginaw, Michigan** | [claytonleonardcook+work@gmail.com](mailto:claytonleonardcook+work@gmail.com)
 
 <br/>
 

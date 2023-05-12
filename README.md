@@ -3,7 +3,24 @@
 
 <br/>
 
-October&nbsp;2022 - Present
+December&nbsp;2022 - Present
+### **Cellar&nbsp;Door @ TIAA Bank** | Remote
+<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
+<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
+<ul>
+    <li>Laid the infustructure for a dynamic component system that interfaces with a CMS.</li>
+    <li>Wrote documentation within a Github Wiki for future onboarding.</li>
+    <li>Created complex SCSS styling for ease of updating and flexibility.</li>
+    <li>Generated Typescripts types from CMS content types through their SDK.</li>
+</ul>
+
+<br/>
+
+October&nbsp;2022 - January&nbsp;2023
 ### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
@@ -61,12 +78,17 @@ January&nbsp;2021 - February&nbsp;2021
 <img style="height: 1em;" src="static/javascript.svg" />&nbsp;Javascript&nbsp;
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
+<!--
+
 <ul>
     <li>Migrated media assets and content from existing site over to React project.</li>
     <li>Groomed JIRA tickets with dev team and code reviewed PRs on GitHub.</li>
     <li>Worked in branches to organize and merge new features deployed in production.</li>
     <li>Followed design mocks to develop email blast sent to thousands of customers.</li>
 </ul>
+
+-->
 
 <br/>
 
@@ -79,12 +101,17 @@ December&nbsp;2019 - March&nbsp;2020
 <img style="height: 1em;" src="static/redux.svg" />&nbsp;Redux&nbsp;
 <img style="height: 1em;" src="static/firebase.svg" />&nbsp;Firebase&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
+<!--
+
 <ul>
     <li>Wrote helper functions with Jest unit tests to format data used on frontend.</li>
     <li>Configured React router to handle URL parameters used for application logic.</li>
     <li>Refactored components and located/migrated shared component logic.</li>
     <li>Worked with the frontend development team using Github to manage codebase.</li>
 </ul>
+
+-->
 
 <br/>
 
@@ -98,12 +125,17 @@ June&nbsp;2018 - July&nbsp;2018
 <img style="height: 1em;" src="static/bootstrap.svg" />&nbsp;Bootstrap&nbsp;
 <img style="height: 1em;" src="static/firebase.svg" />&nbsp;Firebase&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
+<!--
+
 <ul>
     <li>Collaborated with frontend team to develop CRUD dashboard for use by client.</li>
     <li>Helped integrate Firebase (a realtime database) into dashboard to handle client data.</li>
     <li>Developed a login page using Firebase Auth to authenticate and signup users.</li>
     <li>Wrote Firebase rules to validate and sanitize user inputs being sent in API requests.</li>
 </ul>
+
+-->
 
 <br/>
 

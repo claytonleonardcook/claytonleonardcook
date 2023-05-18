@@ -1,10 +1,13 @@
 # Clayton Leonard Cook | Software Engineer
+
 **Saginaw, Michigan** | [claytonleonardcook+work@gmail.com](mailto:claytonleonardcook+work@gmail.com)
 
 <br/>
 
 December&nbsp;2022 - Present
+
 ### **Cellar&nbsp;Door @ TIAA Bank** | Remote
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
@@ -21,7 +24,9 @@ December&nbsp;2022 - Present
 <br/>
 
 October&nbsp;2022 - January&nbsp;2023
+
 ### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
+
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
@@ -38,13 +43,16 @@ October&nbsp;2022 - January&nbsp;2023
 <br/>
 
 August&nbsp;2022 - October&nbsp;2022
+
 ### **Cellar&nbsp;Door @ Factimize** | Remote
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
 <ul>
     <li>Designed and developed user interface for client dashboard.</li>
     <li>Worked with team to gather requirements and prioritized work.</li>
@@ -55,13 +63,16 @@ August&nbsp;2022 - October&nbsp;2022
 <br/>
 
 May&nbsp;2022 - August&nbsp;2022
+
 ### **Cellar&nbsp;Door @ Peloton** | Remote
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
 <img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
 <img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+
 <ul>
     <li>Wrote custom GraphQL queries to retrieve component data from Contentful CMS.</li>
     <li>Followed atomic design to use existing atoms to create molecules and pages.</li>
@@ -72,7 +83,9 @@ May&nbsp;2022 - August&nbsp;2022
 <br/>
 
 January&nbsp;2021 - February&nbsp;2021
+
 ### **Onflo @ DirectKey** | Remote
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
 <img style="height: 1em;" src="static/javascript.svg" />&nbsp;Javascript&nbsp;
@@ -93,7 +106,9 @@ January&nbsp;2021 - February&nbsp;2021
 <br/>
 
 December&nbsp;2019 - March&nbsp;2020
+
 ### **Onflo @ Dinr&nbsp;TVC** | Saginaw,&nbsp;MI
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
 <img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
@@ -118,6 +133,7 @@ December&nbsp;2019 - March&nbsp;2020
 June&nbsp;2018 - July&nbsp;2018
 
 ### **Onflo @ Perfect&nbsp;Landing&nbsp;Rentals&nbsp;TVC** | Tawas,&nbsp;MI
+
 <img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
 <img style="height: 1em;" src="static/javascript.svg" />&nbsp;Javascript&nbsp;
@@ -142,7 +158,9 @@ June&nbsp;2018 - July&nbsp;2018
 ## Education
 
 September&nbsp;2019 - Present
+
 ### **Saginaw&nbsp;Valley&nbsp;State&nbsp;University** | Bachelor&nbsp;of&nbsp;Science&nbsp;in&nbsp;Computer Engineering
+
 <ul>
     <li>Attended Java classes to learn syntax, major data structures, and algorithms.</li>
     <li>Deployed a React/Firebase application for web development class.</li>

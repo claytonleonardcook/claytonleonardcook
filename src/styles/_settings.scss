@@ -1,0 +1,54 @@
+$keppel: #44bba4;
+$prussian-blue: #173753;
+$ghost-white: #f7f7ff;
+$bistre: #261702;
+$gray: #857e7b;
+
+$colors: (
+  'primary': $prussian-blue,
+  'secondary': $keppel,
+  'white': $ghost-white,
+  'black': $bistre,
+  'gray': $gray,
+);
+
+$overlayStrength: 0.2;
+$backgroundColors: (
+  'primary': (
+    'background': $prussian-blue,
+    'text': $ghost-white,
+    'overlay': rgba($ghost-white, $overlayStrength),
+  ),
+  'secondary': (
+    'background': $keppel,
+    'text': $ghost-white,
+    'overlay': rgba($bistre, $overlayStrength),
+  ),
+  'white': (
+    'background': $ghost-white,
+    'text': $bistre,
+    'overlay': rgba($bistre, $overlayStrength),
+  ),
+  'black': (
+    'background': $bistre,
+    'text': $ghost-white,
+    'overlay': rgba($ghost-white, $overlayStrength),
+  ),
+  'gray': (
+    'background': $gray,
+    'text': $ghost-white,
+    'overlay': rgba($ghost-white, $overlayStrength),
+  ),
+);
+
+$fontSizes: (
+  'xs': 0.75rem,
+  'sm': 0.875rem,
+  'md': 1rem,
+  'lg': 1.125rem,
+  'xl': 1.25rem,
+  'xxl': 1.5rem,
+  'xxxl': 1.875rem,
+  'xxxxl': 2.25rem,
+  'xxxxxl': 3rem,
+);

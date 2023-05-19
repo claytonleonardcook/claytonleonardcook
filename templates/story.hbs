@@ -1,0 +1,10 @@
+<script>
+  import {Meta, Story} from '@storybook/addon-svelte-csf';
+  import {{name}} from '.';
+</script>
+
+<Meta title='Atoms/{{name}}' component='{Button}' argTypes='{}' />
+
+<Story name="Primary" args={{variant: 'primary', isDisabled: false}} let:args>
+  <Button {...args}>Primary</Button>
+</Story>

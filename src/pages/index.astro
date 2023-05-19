@@ -1,18 +1,23 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
+import '../styles/global.scss';
+import Button from '@atoms/Button/index.svelte';
 console.log('This runs in your terminal, not the browser!');
 ---
 
-<!-- Below is your "component template." It's just HTML, but with
-     some magic sprinkled in to help you build great templates. -->
+<script>
+  document.querySelector('button.clickme').addEventListener('click', () => {
+    alert('Hello, World!');
+  });
+</script>
+
 <html>
-	<body>
-		<h1>Hello, World!</h1>
-	</body>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+  <Button className="clickme">Click me</Button>
 </html>
 <style>
-	h1 {
-		color: orange;
-	}
+  h1 {
+    color: orange;
+  }
 </style>

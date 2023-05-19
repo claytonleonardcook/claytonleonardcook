@@ -1,5 +1,9 @@
-import { vitePreprocess } from '@astrojs/svelte';
+import {vitePreprocess} from '@astrojs/svelte';
+import {sass} from 'svelte-preprocess-sass';
 
 export default {
-	preprocess: vitePreprocess()
+  kit: {
+    target: '#svelte',
+  },
+  preprocess: vitePreprocess(),
 };

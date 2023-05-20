@@ -8,11 +8,11 @@ December&nbsp;2022 - Present
 
 ### **Cellar&nbsp;Door @ TIAA Bank** | Remote
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <ul>
     <li>Laid the infustructure for a dynamic component system that interfaces with a CMS.</li>
@@ -27,11 +27,11 @@ October&nbsp;2022 - January&nbsp;2023
 
 ### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
 
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
-<img style="height: 1em;" src="static/expo.svg" />&nbsp;Expo&nbsp;
+<img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/graphql.svg" />&nbsp;GraphQL&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/expo.svg" />&nbsp;Expo&nbsp;
 
 <ul>
     <li>Translated mockups to React Native components for reuse.</li>
@@ -46,12 +46,12 @@ August&nbsp;2022 - October&nbsp;2022
 
 ### **Cellar&nbsp;Door @ Factimize** | Remote
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/graphql.svg" />&nbsp;GraphQL&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <ul>
     <li>Designed and developed user interface for client dashboard.</li>
@@ -66,12 +66,12 @@ May&nbsp;2022 - August&nbsp;2022
 
 ### **Cellar&nbsp;Door @ Peloton** | Remote
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/graphql.svg" />&nbsp;GraphQL&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/graphql.svg" />&nbsp;GraphQL&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <ul>
     <li>Wrote custom GraphQL queries to retrieve component data from Contentful CMS.</li>
@@ -86,11 +86,11 @@ January&nbsp;2021 - February&nbsp;2021
 
 ### **Onflo @ DirectKey** | Remote
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/javascript.svg" />&nbsp;Javascript&nbsp;
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/javascript.svg" />&nbsp;Javascript&nbsp;
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <!--
 
@@ -109,13 +109,13 @@ December&nbsp;2019 - March&nbsp;2020
 
 ### **Onflo @ Dinr&nbsp;TVC** | Saginaw,&nbsp;MI
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/typescript.svg" />&nbsp;Typescript&nbsp;
-<img style="height: 1em;" src="static/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="static/redux.svg" />&nbsp;Redux&nbsp;
-<img style="height: 1em;" src="static/firebase.svg" />&nbsp;Firebase&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
+<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
+<img style="height: 1em;" src="public/readme/redux.svg" />&nbsp;Redux&nbsp;
+<img style="height: 1em;" src="public/readme/firebase.svg" />&nbsp;Firebase&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <!--
 
@@ -134,13 +134,13 @@ June&nbsp;2018 - July&nbsp;2018
 
 ### **Onflo @ Perfect&nbsp;Landing&nbsp;Rentals&nbsp;TVC** | Tawas,&nbsp;MI
 
-<img style="height: 1em;" src="static/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="static/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="static/javascript.svg" />&nbsp;Javascript&nbsp;
-<img style="height: 1em;" src="static/angular.svg" />&nbsp;Angular&nbsp;
-<img style="height: 1em;" src="static/bootstrap.svg" />&nbsp;Bootstrap&nbsp;
-<img style="height: 1em;" src="static/firebase.svg" />&nbsp;Firebase&nbsp;
-<img style="height: 1em;" src="static/git.svg" />&nbsp;GIT&nbsp;
+<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
+<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
+<img style="height: 1em;" src="public/readme/javascript.svg" />&nbsp;Javascript&nbsp;
+<img style="height: 1em;" src="public/readme/angular.svg" />&nbsp;Angular&nbsp;
+<img style="height: 1em;" src="public/readme/bootstrap.svg" />&nbsp;Bootstrap&nbsp;
+<img style="height: 1em;" src="public/readme/firebase.svg" />&nbsp;Firebase&nbsp;
+<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
 
 <!--
 
@@ -201,5 +201,5 @@ November&nbsp;2021
 <br/>
 
 <p align="center">
-    <img style="height: 15em;" src="static/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="static/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="static/githubqrcode.svg" />
+    <img style="height: 15em;" src="public/readme/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="public/readme/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="public/readme/githubqrcode.svg" />
 </p>

@@ -2,7 +2,8 @@
   export let className: string = '';
   export let isCircle: boolean = false;
   export let isDisabled: boolean = false;
-  export let variant: 'primary' | 'secondary' = 'primary';
+  export let variant: 'primary' | 'secondary';
+  export let _slot: string = 'Slot';
 </script>
 
 <button
@@ -12,7 +13,7 @@
   disabled={isDisabled}
 >
   <span>
-    <slot />
+    <slot>{_slot}</slot>
   </span>
 </button>
 

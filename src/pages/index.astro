@@ -1,6 +1,6 @@
 ---
 import '../styles/global.scss';
-import Button from '@atoms/Button/index.svelte';
+import Button from '@atoms/Button.svelte';
 console.log('This runs in your terminal, not the browser!');
 ---
 
@@ -14,7 +14,7 @@ console.log('This runs in your terminal, not the browser!');
   <body>
     <h1>Hello, World!</h1>
   </body>
-  <Button className="clickme">Click me</Button>
+  <Button variant="primary" className="clickme">Click me</Button>
 </html>
 <style>
   h1 {

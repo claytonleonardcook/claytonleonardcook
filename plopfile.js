@@ -32,12 +32,12 @@ export default function (
       (answer) => (answer.name = plop.getHelper('pascalCase')(answer.name)),
       {
         type: 'add',
-        path: 'src/components/{{type}}s/{{name}}/index.svelte',
+        path: 'src/components/{{type}}s/{{name}}.svelte',
         templateFile: 'templates/component.hbs',
       },
       {
         type: 'add',
-        path: 'src/components/{{type}}s/{{name}}/story.stories.svelte',
+        path: 'storybook/components/{{type}}s/{{name}}.stories.ts',
         templateFile: 'templates/story.hbs',
       },
     ],

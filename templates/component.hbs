@@ -1,8 +1,10 @@
 <script lang='ts'>
+  export let className: string = '';
+  export let _slot: string = 'Slot';
 </script>
 
-<div>
-  <slot />
+<div class={`{{name}} ${className}`}>
+  <slot>{_slot}</slot>
 </div>
 
 <style lang='scss'>

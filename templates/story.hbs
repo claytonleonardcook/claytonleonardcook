@@ -1,10 +1,30 @@
-<script>
-  import {Meta, Story} from '@storybook/addon-svelte-csf';
-  import {{name}} from '.';
-</script>
+import type { Meta, StoryObj } from '@storybook/svelte';
 
-<Meta title='Atoms/{{name}}' component='{Button}' argTypes='{}' />
+import {{name}} from '@components/{{type}}s/{{name}}.svelte';
 
-<Story name="Primary" args={{variant: 'primary', isDisabled: false}} let:args>
-  <Button {...args}>Primary</Button>
-</Story>
+const meta = {
+  title: '{{type}}s/{{name}}',
+  component: {{name}},
+  argTypes: {
+    className: {
+      table: {
+        disable: true,
+      },
+    },
+  },
+  parameters: {
+    controls: { 
+      exclude: /^default*/,
+      sort: 'alpha',
+    },
+  }
+} satisfies Meta<{{name}}>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Default: Story = {
+  args: {
+    _slot: 'Default',
+  },
+};

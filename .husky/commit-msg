@@ -35,8 +35,3 @@ then
     echo ""
     exit 1
 fi
-
-#write me a regex expression that allows for letters a-z, A-Z, numbers 0-9, spaces and ampersands
-[[ "ci: hello & world" =~ ^(feat|fix|docs|style|refactor|test|chore|perf|ci|build|temp)\:\s[a-zA-z\s\&]*$ ]] && echo "yes"
-# ^[(a-z0-9|\s|\&)]*$
-[[ "&" =~ [a-zA-z\s\&]*$ ]] && echo "yes"

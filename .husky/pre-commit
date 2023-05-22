@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🏗️👷 Styling, testing and building before committing'
+
+yarn check-format ||
+(
+    echo '❌🖌️ Prettier Check Failed. Run yarn format, add changes and try commit again. 🎨❌';
+    false;
+)
+
+yarn check-types ||
+(
+    echo '❌⌨️ Failed Type check. Make the changes required above. 🧩❌'
+    false;
+)
+
+echo '✅ You win this time... I am committing this now. ✅'

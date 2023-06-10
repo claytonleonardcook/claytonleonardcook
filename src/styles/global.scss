@@ -1,0 +1,17 @@
+@use 'settings' as *;
+
+html {
+  @each $color, $value in $colors {
+    --#{$color}: #{$value};
+  }
+
+  @each $color, $value in $backgroundColors {
+    @each $type, $typeValue in $value {
+      --background-#{$color}-#{$type}: #{$typeValue};
+    }
+  }
+
+  @each $size, $value in $fontSizes {
+    --font-size-#{$size}: #{$value};
+  }
+}

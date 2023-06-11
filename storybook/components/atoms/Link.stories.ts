@@ -32,7 +32,7 @@ export const Primary: Story = {
     isDisabled: false,
     variant: 'primary',
     href: 'https://www.google.com',
-    _slot: 'Primary',
+    label: 'Primary',
   },
 };
 
@@ -41,6 +41,6 @@ export const Secondary: Story = {
     isDisabled: false,
     variant: 'secondary',
     href: 'https://www.google.com',
-    _slot: 'Secondary',
+    label: 'Secondary',
   },
 };

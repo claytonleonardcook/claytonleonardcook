@@ -3,7 +3,7 @@
   export let isDisabled: boolean = false;
   export let variant: 'primary' | 'secondary';
   export let href: string = '';
-  export let _slot: string = 'Slot';
+  export let label: string = 'Slot';
 </script>
 
 <a
@@ -14,9 +14,7 @@
   aria-disabled={isDisabled}
   tabindex={isDisabled ? -1 : 0}
 >
-  <span>
-    <slot>{_slot}</slot>
-  </span>
+  {label}
 </a>
 
 <style lang="scss">
@@ -54,7 +52,7 @@
     &[aria-disabled='false'] {
       &:hover,
       &:focus {
-        transform: scale(1.05);
+        transform: scale(0.98);
       }
 
       &:focus-visible {

@@ -1,10 +1,10 @@
 import type {Meta, StoryObj} from '@storybook/svelte';
 
-import Button from '@components/atoms/Button.svelte';
+import Link from '@components/atoms/Link.svelte';
 
 const meta = {
-  title: 'Atoms/Button',
-  component: Button,
+  title: 'Atoms/Link',
+  component: Link,
   argTypes: {
     variant: {
       control: 'radio',
@@ -22,25 +22,25 @@ const meta = {
       sort: 'alpha',
     },
   },
-} satisfies Meta<Button>;
+} satisfies Meta<Link>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    isCircle: false,
     isDisabled: false,
     variant: 'primary',
+    href: 'https://www.google.com',
     _slot: 'Primary',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    isCircle: false,
     isDisabled: false,
     variant: 'secondary',
+    href: 'https://www.google.com',
     _slot: 'Secondary',
   },
 };

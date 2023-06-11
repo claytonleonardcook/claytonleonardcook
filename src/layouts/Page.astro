@@ -1,5 +1,9 @@
 ---
+import {getCollection} from 'astro:content';
+import Footer from '@/components/molecules/Footer.svelte';
 import '../styles/global.scss';
+
+const links = await getCollection('links');
 ---
 
 <html lang="en">
@@ -11,5 +15,6 @@ import '../styles/global.scss';
     <main>
       <slot />
     </main>
+    <Footer links={links} />
   </body>
 </html>

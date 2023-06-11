@@ -1,19 +1,60 @@
-@use 'settings' as *;
+@use 'colors' as *;
+@use 'fonts' as *;
 
 html {
   @each $color, $value in $colors {
     --#{$color}: #{$value};
   }
 
-  // @each $color, $value in $backgroundColors {
-  //   @each $type, $typeValue in $value {
-  //     --background-#{$color}-#{$type}: #{$typeValue};
-  //   }
-  // }
-
   @each $size, $value in $fontSizes {
     --font-size-#{$size}: #{$value};
   }
 
+  @each $weight, $value in $weights {
+    --font-weight-#{$weight}: #{$value};
+  }
+
+  font-family: 'Shantell Sans', cursive;
   color: var(--black);
+  background-color: var(--white);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--font-weight-extrabold);
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: var(--font-size-xxxxxl);
+  }
+
+  h2 {
+    font-size: var(--font-size-xxxxl);
+  }
+
+  h3 {
+    font-size: var(--font-size-xxxl);
+  }
+
+  h4 {
+    font-size: var(--font-size-xxl);
+  }
+
+  h5 {
+    font-size: var(--font-size-xl);
+  }
+
+  h6 {
+    font-size: var(--font-size-lg);
+  }
+
+  p,
+  span {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-md);
+  }
 }

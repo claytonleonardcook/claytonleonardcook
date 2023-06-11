@@ -1,32 +1,39 @@
-<script lang="ts">
-  import type {CollectionEntry} from 'astro:content';
-  export let className: string = '';
-  export let links: CollectionEntry<'links'>[];
+---
+import {getCollection} from 'astro:content';
 
-  const usefulLinks = links.filter(({slug}) => /useful/i.test(slug));
-  const socialLinks = links.filter(({slug}) => /social/i.test(slug));
-</script>
+const usefulLinks = await getCollection('links', ({slug}) => /useful/i.test(slug));
 
-<footer class={className}>
+const socialLinks = await getCollection('links', ({slug}) => /social/i.test(slug));
+---
+
+<footer>
   <section class="links">
     <section class="useful">
       <h1 class="fs-md">Useful Links</h1>
       <ul>
-        {#each usefulLinks as { data: { title, url } }}
-          <li>
-            <a href={url} target="_blank">{title}</a>
-          </li>
-        {/each}
+        {
+          usefulLinks.map(({data: {title, url}}) => (
+            <li>
+              <a href={url} target="_blank">
+                {title}
+              </a>
+            </li>
+          ))
+        }
       </ul>
     </section>
     <section class="social">
       <h1 class="fs-md">Social Media</h1>
       <ul>
-        {#each socialLinks as { data: { title, url } }}
-          <li>
-            <a href={url} target="_blank">{title}</a>
-          </li>
-        {/each}
+        {
+          socialLinks.map(({data: {title, url}}) => (
+            <li>
+              <a href={url} target="_blank">
+                {title}
+              </a>
+            </li>
+          ))
+        }
       </ul>
     </section>
   </section>

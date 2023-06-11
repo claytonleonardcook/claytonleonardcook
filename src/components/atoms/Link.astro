@@ -1,10 +1,9 @@
-<script lang="ts">
-  export let className: string = '';
-  export let isDisabled: boolean = false;
-  export let variant: 'primary' | 'secondary';
-  export let href: string = '';
-  export let label: string = 'Slot';
-</script>
+---
+const className: string = Astro.props.className || '';
+const isDisabled: boolean = Astro.props.isDisabled || false;
+const variant: string = Astro.props.variant;
+const href: string = Astro.props.href;
+---
 
 <a
   class={`Link ${className}`}
@@ -14,7 +13,7 @@
   aria-disabled={isDisabled}
   tabindex={isDisabled ? -1 : 0}
 >
-  {label}
+  <slot />
 </a>
 
 <style lang="scss">

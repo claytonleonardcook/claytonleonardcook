@@ -1,9 +1,7 @@
 ---
-import {getCollection} from 'astro:content';
-import Footer from '@/components/molecules/Footer.svelte';
+import Header from '@/components/molecules/Header.astro';
+import Footer from '@/components/molecules/Footer.astro';
 import '../styles/global.scss';
-
-const links = await getCollection('links');
 ---
 
 <html lang="en">
@@ -12,9 +10,10 @@ const links = await getCollection('links');
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+    <Header />
     <main>
       <slot />
     </main>
-    <Footer links={links} />
+    <Footer />
   </body>
 </html>

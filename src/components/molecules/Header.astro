@@ -1,0 +1,32 @@
+---
+import Link from '@/components/atoms/Link.astro';
+
+const resumeLink = await Astro.glob('../../content/links/useful/resume.mdx');
+const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx');
+---
+
+<header>
+  <img src="/self.jpg" alt="Clayton Cook" />
+  <section>
+    <h1>Clayton Cook</h1>
+    <Link href={resumeLink[0].url} variant="primary">Resume</Link>
+    <Link href={calendlyLink[0].url} variant="secondary">Book a Meeting</Link>
+  </section>
+</header>
+
+<style lang="scss">
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    > img {
+      width: 256px;
+      aspect-ratio: 1 / 1;
+      border-radius: 16px;
+      margin-right: 2rem;
+      transform: rotateZ(-1.5deg);
+    }
+  }
+</style>

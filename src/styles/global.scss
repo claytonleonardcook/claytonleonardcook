@@ -1,5 +1,6 @@
 @use 'colors' as *;
 @use 'fonts' as *;
+@use 'animations' as *;
 
 html {
   @each $color, $value in $colors {
@@ -68,7 +69,7 @@ html {
 
   p,
   span {
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-md);
   }
 
@@ -86,5 +87,36 @@ html {
   ol {
     margin: 0;
     padding: 0;
+  }
+
+  blockquote {
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+    padding: 0 16px;
+    border-left: solid $primary 8px;
+    font-style: italic;
+    color: $darkGray;
+    border-radius: 8px;
+    background-color: $lightGray;
+  }
+
+  em {
+    font-weight: var(--font-weight-extrabold);
+    color: $black;
+  }
+
+  pre {
+    padding: 16px;
+    border-radius: 8px;
+    code {
+      font-family: 'Shantell Sans', cursive;
+    }
+  }
+
+  p,
+  span,
+  code {
+    font-size: 1rem;
   }
 }

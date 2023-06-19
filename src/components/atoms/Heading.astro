@@ -1,0 +1,15 @@
+---
+const className: string = Astro.props.className || '';
+// const variant: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' = Astro.props.variant || 'h1';
+console.log(Astro);
+---
+
+<!-- {variant === 'h1' && <h1 class={`heading ${className}`}>{Astro.props.children}</h1>}
+{variant === 'h2' && <h2 class={`heading ${className}`}>{Astro.props.children}</h2>}
+{variant === 'h3' && <h3 class={`heading ${className}`}>{Astro.props.children}</h3>}
+{variant === 'h4' && <h4 class={`heading ${className}`}>{Astro.props.children}</h4>}
+{variant === 'h5' && <h5 class={`heading ${className}`}>{Astro.props.children}</h5>}
+{variant === 'h6' && <h6 class={`heading ${className}`}>{Astro.props.children}</h6>} -->
+<h1>
+  <slot />
+</h1>

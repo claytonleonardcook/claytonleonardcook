@@ -8,7 +8,7 @@ const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx')
 <header>
   <img src="/self.jpg" alt="Clayton Cook" />
   <section>
-    <h1>Clayton Cook</h1>
+    <h1 data-no-link>Clayton Cook</h1>
     <section>
       <Link href={resumeLink[0].url} variant="primary">Resume</Link>
       <Link href={calendlyLink[0].url} variant="secondary">Book a Meeting</Link>

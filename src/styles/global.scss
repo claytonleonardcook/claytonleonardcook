@@ -1,122 +1,140 @@
-@use 'colors' as *;
 @use 'fonts' as *;
 @use 'animations' as *;
 
 html {
-  @each $color, $value in $colors {
-    --#{$color}: #{$value};
-  }
-
-  @each $size, $value in $fontSizes {
-    --font-size-#{$size}: #{$value};
-    .fs-#{$size} {
-      font-size: var(--font-size-#{$size});
-    }
-  }
-
-  @each $weight, $value in $weights {
-    --font-weight-#{$weight}: #{$value};
-  }
-
-  font-family: 'Shantell Sans', cursive;
-  color: var(--black);
-  background-color: var(--white);
-
   body {
-    --scroll: 0;
-
     padding: 0;
     margin: 0;
-  }
+    font-family: 'Shantell Sans', cursive;
 
-  main {
-    margin: 0 16px;
-  }
+    --white: #fdfdfb;
+    --black: #0d0a02;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: var(--font-weight-extrabold);
-    margin: 1rem 0;
-  }
+    &[data-theme='light'] {
+      --primary: #058cc6;
+      --secondary: #25dab6;
+      --gray: #d9d9d9;
+      --background: var(--white);
+      --text: var(--black);
+    }
 
-  h1 {
-    font-size: var(--font-size-xxxxxl);
-  }
+    &[data-theme='dark'] {
+      --primary: #058cc6;
+      --secondary: #25dab6;
+      --gray: #404040;
+      --background: var(--black);
+      --text: var(--white);
+    }
 
-  h2 {
-    font-size: var(--font-size-xxxxl);
-  }
+    color: var(--text);
+    background-color: var(--background);
 
-  h3 {
-    font-size: var(--font-size-xxxl);
-  }
+    @each $size, $value in $fontSizes {
+      --font-size-#{$size}: #{$value};
+      .fs-#{$size} {
+        font-size: var(--font-size-#{$size});
+      }
+    }
 
-  h4 {
-    font-size: var(--font-size-xxl);
-  }
+    @each $weight, $value in $weights {
+      --font-weight-#{$weight}: #{$value};
+    }
 
-  h5 {
-    font-size: var(--font-size-xl);
-  }
+    header,
+    main {
+      margin: 0 16px;
+    }
 
-  h6 {
-    font-size: var(--font-size-lg);
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: var(--font-weight-extrabold);
+      margin: 1rem 0;
+    }
 
-  p,
-  span {
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-md);
-  }
+    h1 {
+      font-size: var(--font-size-xxxxxl);
+    }
 
-  a {
-    color: var(--white);
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-md);
-    &:hover {
+    h2 {
+      font-size: var(--font-size-xxxxl);
+    }
+
+    h3 {
+      font-size: var(--font-size-xxxl);
+    }
+
+    h4 {
+      font-size: var(--font-size-xxl);
+    }
+
+    h5 {
+      font-size: var(--font-size-xl);
+    }
+
+    h6 {
+      font-size: var(--font-size-lg);
+    }
+
+    p,
+    span {
+      font-weight: var(--font-weight-medium);
+      font-size: var(--font-size-md);
+    }
+
+    a {
       color: var(--white);
-      filter: brightness(0.9);
+      font-weight: var(--font-weight-bold);
+      font-size: var(--font-size-md);
+      &:hover {
+        color: var(--white);
+        filter: brightness(0.9);
+      }
     }
-  }
 
-  ul,
-  ol {
-    margin: 0;
-    padding: 0;
-  }
+    ul,
+    ol {
+      margin: 0;
+      padding: 0;
+    }
 
-  blockquote {
-    display: flex;
-    flex-direction: column;
-    margin: 16px auto;
-    padding: 0 16px;
-    border-left: solid $primary 8px;
-    font-style: italic;
-    color: $darkGray;
-    border-radius: 8px;
-    background-color: $lightGray;
-  }
+    blockquote {
+      display: flex;
+      flex-direction: column;
+      margin: 16px auto;
+      padding: 0 16px;
+      border-left: solid var(--primary) 8px;
+      font-style: italic;
+      border-radius: 8px;
+      background-color: var(--gray);
+    }
 
-  em {
-    font-weight: var(--font-weight-extrabold);
-    color: $black;
-  }
+    em {
+      font-weight: var(--font-weight-extrabold);
+    }
 
-  pre {
-    padding: 16px;
-    border-radius: 8px;
+    pre {
+      padding: 16px;
+      border-radius: 8px;
+      background-color: var(--white);
+      code {
+        font-family: 'Shantell Sans', cursive;
+      }
+    }
+
+    p,
+    span,
     code {
-      font-family: 'Shantell Sans', cursive;
+      font-size: 1rem;
     }
-  }
 
-  p,
-  span,
-  code {
-    font-size: 1rem;
+    ul {
+      li.spacer {
+        flex-grow: 1;
+      }
+    }
   }
 }

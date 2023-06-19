@@ -5,18 +5,13 @@ import Footer from '@/components/molecules/Footer.astro';
 import '../styles/global.scss';
 ---
 
-<script>
-  window.addEventListener('scroll', () => {
-    document.body.style.setProperty('--scroll', `${window.scrollY}`);
-  });
-</script>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="normal" />
   </head>
-  <body>
+  <body data-theme="dark">
     <Navbar />
     <Header />
     <main>

@@ -9,14 +9,18 @@ const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx')
   <img src="/self.jpg" alt="Clayton Cook" />
   <section>
     <h1>Clayton Cook</h1>
-    <Link href={resumeLink[0].url} variant="primary">Resume</Link>
-    <Link href={calendlyLink[0].url} variant="secondary">Book a Meeting</Link>
+    <section>
+      <Link href={resumeLink[0].url} variant="primary">Resume</Link>
+      <Link href={calendlyLink[0].url} variant="secondary">Book a Meeting</Link>
+    </section>
   </section>
 </header>
 
 <style lang="scss">
   header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
@@ -28,6 +32,25 @@ const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx')
       margin-right: 2rem;
       rotate: -1.5deg;
       animation: fadeUp 0.5s ease-out;
+    }
+
+    > section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+
+      > h1 {
+        text-align: center;
+      }
+
+      > section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
     }
   }
 </style>

@@ -67,6 +67,11 @@ const socialLinks = await getCollection('links', ({slug}) => /social/i.test(slug
         flex-direction: column;
         > ul {
           list-style: none;
+          > li {
+            > a {
+              color: var(--white);
+            }
+          }
         }
       }
     }

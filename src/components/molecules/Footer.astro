@@ -9,7 +9,7 @@ const socialLinks = await getCollection('links', ({slug}) => /social/i.test(slug
 <footer>
   <section class="links">
     <section class="useful">
-      <h1 class="fs-md" data-no-link="">Useful Links</h1>
+      <h1 class="fs-md" data-no-link>Useful Links</h1>
       <ul>
         {
           usefulLinks.map(({data: {title, url}}) => (

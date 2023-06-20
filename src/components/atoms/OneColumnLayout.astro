@@ -1,0 +1,16 @@
+<section class="layout">
+  <slot name="title" />
+  <section>
+    <slot name="first" />
+  </section>
+</section>
+
+<style lang="scss">
+  section {
+    > section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+</style>

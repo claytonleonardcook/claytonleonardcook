@@ -1,8 +1,10 @@
 ---
 import Link from '@/components/atoms/Link.astro';
 
-const resumeLink = await Astro.glob('../../content/links/useful/resume.mdx');
-const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx');
+import {getEntryBySlug} from 'astro:content';
+
+const resumeLink = await getEntryBySlug('links', 'useful/resume');
+const calendlyLink = await getEntryBySlug('links', 'useful/calendly');
 ---
 
 <header>
@@ -10,8 +12,8 @@ const calendlyLink = await Astro.glob('../../content/links/useful/calendly.mdx')
   <section>
     <h1 data-no-link>Clayton Cook</h1>
     <section>
-      <Link href={resumeLink[0].url} variant="primary">Resume</Link>
-      <Link href={calendlyLink[0].url} variant="secondary">Book a Meeting</Link>
+      <Link href={resumeLink.data.url} variant="primary">Resume</Link>
+      <Link href={calendlyLink.data.url} variant="secondary">Book a Meeting</Link>
     </section>
   </section>
 </header>

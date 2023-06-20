@@ -1,5 +1,7 @@
 @use 'fonts' as *;
 @use 'animations' as *;
+@use 'mixins' as *;
+@use 'breakpoints' as *;
 
 html {
   body {
@@ -42,6 +44,9 @@ html {
 
     header,
     main {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
       margin: 0 16px;
     }
 
@@ -54,11 +59,15 @@ html {
       display: flex;
       align-items: center;
       font-weight: var(--font-weight-extrabold);
+      gap: 0.5rem;
       margin: 1rem 0;
 
-      &:hover:not([data-no-link]) {
-        opacity: 0.8;
+      &:not([data-no-link]) {
         cursor: pointer;
+
+        &:hover {
+          opacity: 0.8;
+        }
 
         &::after {
           content: '';
@@ -101,6 +110,10 @@ html {
       font-size: var(--font-size-md);
     }
 
+    p {
+      text-indent: 2rem;
+    }
+
     a {
       color: var(--white);
       font-weight: var(--font-weight-bold);
@@ -117,15 +130,35 @@ html {
       padding: 0;
     }
 
+    blockquote,
+    section.layout {
+      background-color: var(--gray);
+      border-radius: 8px;
+      padding: 0 16px;
+    }
+
     blockquote {
       display: flex;
       flex-direction: column;
       margin: 16px auto;
-      padding: 0 16px;
       border-left: solid var(--primary) 8px;
       font-style: italic;
-      border-radius: 8px;
-      background-color: var(--gray);
+    }
+
+    section.layout {
+      > h1,
+      > h2,
+      > h3,
+      > h4,
+      > h5,
+      > h6 {
+        margin-bottom: 0;
+      }
+
+      > section {
+        display: grid;
+        gap: 16px;
+      }
     }
 
     em {

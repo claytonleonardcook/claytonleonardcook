@@ -9,6 +9,7 @@
       "@atoms/*": ["src/components/atoms/*"],
       "@molecules/*": ["src/components/molecules/*"],
       "@pages/*": ["src/pages/*"]
-    }
+    },
+    "strictNullChecks": true
   }
 }

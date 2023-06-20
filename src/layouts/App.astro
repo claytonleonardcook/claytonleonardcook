@@ -3,13 +3,17 @@ import '../styles/global.scss';
 ---
 
 <script>
-  document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach((heading) => {
-    heading.addEventListener('click', () => {
-      navigator.clipboard.writeText(
-        `${window.location.host}${window.location.pathname}#${heading.id}`,
-      );
+  document
+    .querySelectorAll(':is(h1, h2, h3, h4, h5, h6):not([data-no-link])')
+    .forEach((heading) => {
+      heading.addEventListener('click', () => {
+        navigator.clipboard.writeText(
+          `https://${window.location.host}${window.location.pathname}#${heading.innerHTML
+            .toLowerCase()
+            .replace(/ /g, '-')}`,
+        );
+      });
     });
-  });
 </script>
 
 <html lang="en">

@@ -1,8 +1,9 @@
 ---
 export let ratio: '1:1' | '4:3' | '16:9' | '21:9' = '1:1';
+const className = Astro.props.className || '';
 ---
 
-<section class="layout">
+<section class={`Layout ${className}`}>
   <slot name="title" />
   <section data-ratio={ratio}>
     <slot name="first" />
@@ -14,8 +15,17 @@ export let ratio: '1:1' | '4:3' | '16:9' | '21:9' = '1:1';
   @use '@/styles/mixins' as *;
   @use '@/styles/breakpoints' as *;
 
-  section {
-    display: grid;
+  .Layout {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+
+    > :global(:is(h1, h2, h3, h4, h5, h6)) {
+      margin-bottom: 0;
+    }
     > section {
       display: grid;
       grid-template-rows: 1fr;

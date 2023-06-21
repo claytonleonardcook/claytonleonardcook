@@ -111,7 +111,37 @@ declare module 'astro:content' {
 	>;
 
 	const entryMap: {
-		"links": {
+		"experiences": {
+"beefjerkyexperience.mdx": {
+  id: "beefjerkyexperience.mdx",
+  slug: "beefjerkyexperience",
+  body: string,
+  collection: "experiences",
+  data: any
+} & { render(): Render[".mdx"] },
+"factimize.mdx": {
+  id: "factimize.mdx",
+  slug: "factimize",
+  body: string,
+  collection: "experiences",
+  data: any
+} & { render(): Render[".mdx"] },
+"peleton.mdx": {
+  id: "peleton.mdx",
+  slug: "peleton",
+  body: string,
+  collection: "experiences",
+  data: any
+} & { render(): Render[".mdx"] },
+"tiaa.mdx": {
+  id: "tiaa.mdx",
+  slug: "tiaa",
+  body: string,
+  collection: "experiences",
+  data: any
+} & { render(): Render[".mdx"] },
+},
+"links": {
 "social/github.mdx": {
   id: "social/github.mdx",
   slug: "social/github",

@@ -9,6 +9,13 @@ html {
     margin: 0;
     font-family: 'Shantell Sans', cursive;
 
+    --react: #61dafb;
+    --scss: #cf649a;
+    --typescript: #2e75c3;
+    --git: #dd4b34;
+    --graphql: #e132a7;
+    --nextjs: #010101;
+
     --white: #fdfdfb;
     --black: #0d0a02;
 
@@ -114,6 +121,8 @@ html {
 
     p {
       text-indent: 2rem;
+      padding: 0;
+      margin: 0;
     }
 
     a {
@@ -126,41 +135,15 @@ html {
       }
     }
 
-    ul,
-    ol {
-      margin: 0;
-      padding: 0;
-    }
-
-    blockquote,
-    section.layout {
-      background-color: var(--gray);
-      border-radius: 8px;
-      padding: 0 16px;
-    }
-
     blockquote {
       display: flex;
       flex-direction: column;
       margin: 16px auto;
       border-left: solid var(--primary) 8px;
       font-style: italic;
-    }
-
-    section.layout {
-      > h1,
-      > h2,
-      > h3,
-      > h4,
-      > h5,
-      > h6 {
-        margin-bottom: 0;
-      }
-
-      > section {
-        display: grid;
-        gap: 16px;
-      }
+      background-color: var(--gray);
+      border-radius: 8px;
+      padding: 0 16px;
     }
 
     em {
@@ -186,6 +169,10 @@ html {
       li.spacer {
         flex-grow: 1;
       }
+    }
+
+    img {
+      margin: 0;
     }
   }
 }

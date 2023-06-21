@@ -11,6 +11,21 @@ const linksCollection = defineCollection({
   }),
 });
 
+const experiencesCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    technologies: z.array(z.string()),
+    tags: z.array(z.string()),
+    url: z.string(),
+    where: z.string(),
+    when: z.object({
+      start: z.string(),
+      end: z.string(),
+    }),
+  }),
+});
+
 export const collections = {
   links: linksCollection,
+  experience: experiencesCollection,
 };

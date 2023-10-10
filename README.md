@@ -6,7 +6,7 @@
 
 December&nbsp;2022 - Present
 
-### **Cellar&nbsp;Door @ TIAA Bank** | Remote
+### **Cellar&nbsp;Door @ Everbank** | Remote
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
@@ -62,7 +62,7 @@ August&nbsp;2022 - October&nbsp;2022
 
 <br/>
 
-May&nbsp;2022 - August&nbsp;2022
+May&nbsp;2022 - October&nbsp;2023
 
 ### **Cellar&nbsp;Door @ Peloton** | Remote
 
@@ -79,29 +79,6 @@ May&nbsp;2022 - August&nbsp;2022
     <li>Opened pull requests and reviewed code for quality assurance.</li>
     <li>Worked with external teams for quality assurance and design.</li>
 </ul>
-
-<br/>
-
-January&nbsp;2021 - February&nbsp;2021
-
-### **Onflo @ DirectKey** | Remote
-
-<img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
-<img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
-<img style="height: 1em;" src="public/readme/javascript.svg" />&nbsp;Javascript&nbsp;
-<img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
-<img style="height: 1em;" src="public/readme/git.svg" />&nbsp;GIT&nbsp;
-
-<!--
-
-<ul>
-    <li>Migrated media assets and content from existing site over to React project.</li>
-    <li>Groomed JIRA tickets with dev team and code reviewed PRs on GitHub.</li>
-    <li>Worked in branches to organize and merge new features deployed in production.</li>
-    <li>Followed design mocks to develop email blast sent to thousands of customers.</li>
-</ul>
-
--->
 
 <br/>
 
@@ -172,15 +149,15 @@ September&nbsp;2019 - Present
 
 ## Activites&nbsp;&amp;&nbsp;Accomplishments
 
-2022 - Present
+2022 - 2023
 <br/>
 **Cardinal&nbsp;Robotics&nbsp;Club** | President
 
-2022 - Present
+2022 - 2023
 <br/>
 **Google&nbsp;Developer&nbsp;Student&nbsp;Club** | Vice&nbsp;President
 
-2021 - Present
+2021 - 2022
 <br/>
 **Association&nbsp;of&nbsp;Computer&nbsp;Machinery** | Member
 

@@ -1,12 +1,31 @@
+<style>
+    h1,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    ol {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .qr-codes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+</style>
+
 # Clayton Leonard Cook | Software Engineer
 
-**Saginaw, Michigan** | [claytonleonardcook+work@gmail.com](mailto:claytonleonardcook+work@gmail.com)
+**Bay City, Michigan** | [claytonleonardcook@gmail.com](mailto:claytonleonardcook+work@gmail.com)
 
 <br/>
 
 December&nbsp;2022 - Present
 
-### **Cellar&nbsp;Door @ TIAA Bank** | Remote
+### **Cellar&nbsp;Door @ [EverBank](https://www.everbank.com)** | Remote
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
@@ -25,7 +44,7 @@ December&nbsp;2022 - Present
 
 October&nbsp;2022 - January&nbsp;2023
 
-### **Cellar&nbsp;Door @ Beef Jerky Experience** | Remote
+### **Cellar&nbsp;Door @ [Beef Jerky Experience](https://beefjerkyx.com)** | Remote
 
 <img style="height: 1em;" src="public/readme/typescript.svg" />&nbsp;Typescript&nbsp;
 <img style="height: 1em;" src="public/readme/react.svg" />&nbsp;React&nbsp;
@@ -36,15 +55,15 @@ October&nbsp;2022 - January&nbsp;2023
 <ul>
     <li>Translated mockups to React Native components for reuse.</li>
     <li>Implemented multiple general-use components for user interactions.</li>
-    <li>Streamlined development and client review process using Expo's EAS system for internal distrubution.</li>
+    <li>Streamlined client review process using Expo's EAS system for internal distrubution.</li>
     <li>Created sanitized forms with responsive errors using Formik and Yup.</li>
 </ul>
 
 <br/>
 
-August&nbsp;2022 - October&nbsp;2022
+August&nbsp;2022 - Present
 
-### **Cellar&nbsp;Door @ Factimize** | Remote
+### **Cellar&nbsp;Door @ [Factimize](https://www.factimize.com)** | Remote
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
@@ -62,9 +81,9 @@ August&nbsp;2022 - October&nbsp;2022
 
 <br/>
 
-May&nbsp;2022 - August&nbsp;2022
+May&nbsp;2022 - Present
 
-### **Cellar&nbsp;Door @ Peloton** | Remote
+### **Cellar&nbsp;Door @ [Peloton](https://www.onepeloton.com)/[Precor](https://www.precor.com)** | Remote
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
@@ -84,7 +103,7 @@ May&nbsp;2022 - August&nbsp;2022
 
 January&nbsp;2021 - February&nbsp;2021
 
-### **Onflo @ DirectKey** | Remote
+### **Onflo @ [DirectKey](https://direct-key.vercel.app)** | Remote
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
@@ -107,7 +126,7 @@ January&nbsp;2021 - February&nbsp;2021
 
 December&nbsp;2019 - March&nbsp;2020
 
-### **Onflo @ Dinr&nbsp;TVC** | Saginaw,&nbsp;MI
+### **Onflo @ [Dinr](https://github.com/jadeallencook/dinr)** | Saginaw,&nbsp;MI
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
@@ -132,7 +151,7 @@ December&nbsp;2019 - March&nbsp;2020
 
 June&nbsp;2018 - July&nbsp;2018
 
-### **Onflo @ Perfect&nbsp;Landing&nbsp;Rentals&nbsp;TVC** | Tawas,&nbsp;MI
+### **Onflo @ [Perfect Landing Rentals](https://perfectlandingrentals.com)** | Tawas,&nbsp;MI
 
 <img style="height: 1em;" src="public/readme/html5.svg" />&nbsp;HTML5&nbsp;
 <img style="height: 1em;" src="public/readme/sass.svg" />&nbsp;SCSS&nbsp;
@@ -153,13 +172,11 @@ June&nbsp;2018 - July&nbsp;2018
 
 -->
 
-<br/>
-
 ## Education
 
-September&nbsp;2019 - Present
+September&nbsp;2019 - May 2025
 
-### **Saginaw&nbsp;Valley&nbsp;State&nbsp;University** | Bachelor&nbsp;of&nbsp;Science&nbsp;in&nbsp;Computer Engineering
+### **[Saginaw Valley State University](https://www.svsu.edu)** | Bachelor&nbsp;of&nbsp;Science&nbsp;in&nbsp;Computer Science
 
 <ul>
     <li>Attended Java classes to learn syntax, major data structures, and algorithms.</li>
@@ -168,38 +185,20 @@ September&nbsp;2019 - Present
     <li>Tutored peers in languages like Java, C, C++, Visual Basic, and Javascript.</li>
 </ul>
 
-<br/>
-
 ## Activites&nbsp;&amp;&nbsp;Accomplishments
 
-2022 - Present
-<br/>
-**Cardinal&nbsp;Robotics&nbsp;Club** | President
+2022 - 2023&emsp;**Cardinal&nbsp;Robotics&nbsp;Club** | President
 
-2022 - Present
-<br/>
-**Google&nbsp;Developer&nbsp;Student&nbsp;Club** | Vice&nbsp;President
+2022 - 2023&emsp;**Google&nbsp;Developer&nbsp;Student&nbsp;Club** | Vice&nbsp;President
 
-2021 - Present
-<br/>
-**Association&nbsp;of&nbsp;Computer&nbsp;Machinery** | Member
+2021 - Present&emsp;**Association&nbsp;of&nbsp;Computer&nbsp;Machinery** | Member
 
-2019 - 2022
-<br/>
-**Science&nbsp;Olympiad** | Coach
+2019 - 2022&emsp;**Science&nbsp;Olympiad** | Coach
 
-November&nbsp;2021
-<br/>
-**CS&nbsp;Department&nbsp;Coding&nbsp;Competition** | 2nd&nbsp;Place
+2021, 2022, 2023 **CS&nbsp;Department&nbsp;Coding&nbsp;Competition**
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+</br>
 
-<p align="center">
-    <img style="height: 15em;" src="public/readme/websiteqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="public/readme/linkedinqrcode.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 15em;" src="public/readme/githubqrcode.svg" />
+<p class="qr-codes" align="center">
+    <img src="public/readme/websiteqrcode.svg" /><img src="public/readme/linkedinqrcode.svg" /><img src="public/readme/githubqrcode.svg" />
 </p>

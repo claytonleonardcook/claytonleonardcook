@@ -1,16 +1,15 @@
-import {defineConfig} from 'astro/config';
-import svelte, {vitePreprocess} from '@astrojs/svelte';
-import {sass} from 'svelte-preprocess';
-import tsconfigPaths from 'vite-tsconfig-paths';
+// @ts-check
+import { defineConfig } from 'astro/config';
 
-import mdx from '@astrojs/mdx';
+import tailwindcss from '@tailwindcss/vite';
+
+import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    svelte({
-      preprocess: [tsconfigPaths(), vitePreprocess(), sass()],
-    }),
-    mdx(),
-  ],
+  vite: {
+    plugins: [tailwindcss()]
+  },
+
+  integrations: [icon()]
 });

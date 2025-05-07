@@ -1,0 +1,612 @@
+---
+import ResumeSection from "../components/ResumeSection.astro";
+import TechnologiesList from "../components/TechnologiesList.astro";
+import ResumeLayout from "../layouts/Resume.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<ResumeLayout>
+  <header class="flex flex-col">
+    <div class="flex flex-row items-end text-2xl print:text-sm">
+      <h2 class="font-bold grow text-blue-200 print:text-blue-500">
+        Clayton Leonard Cook
+      </h2>
+      <span class="italic">Software Engineer</span>
+    </div>
+    <hr class="my-2" />
+    <div class="flex flex-row gap-2 text-base print:text-3xs">
+      <div class="flex flex-row gap-1 items-center">
+        <Icon
+          class="text-blue-200 print:text-blue-500"
+          name={"fa6-solid:map-pin"}
+        />
+        <span>San Francisco Bay Area</span>
+      </div>
+      <div class="flex flex-row gap-1 items-center">
+        <Icon
+          class="text-blue-200 print:text-blue-500"
+          name={"fa6-solid:envelope"}
+        />
+        <a class="hover:underline" href="mailto:work@claytonleonardcook.com"
+          >work@claytonleonardcook.com</a
+        >
+      </div>
+      <div class="flex flex-row gap-1 items-center">
+        <Icon
+          class="text-blue-200 print:text-blue-500"
+          name={"fa6-brands:linkedin"}
+        />
+        <a
+          class="hover:underline"
+          href="https://www.linkedin.com/in/claytonleonardcook"
+          >@claytonleonardcook</a
+        >
+      </div>
+    </div>
+    <p class="mt-4 text-base print:text-3xs">
+      I'm a <b>passionate software engineer</b> with a <b
+        >Bachelors in Computer Science</b
+      >
+      and over <b>five years of experience</b>
+      architecting author-friendly, front-end applications using modular components,
+      dynamic styling systems and seamless third-party integrations. Proficient in
+      <b>HTML5</b>, <b>CSS3</b>, and <b>JavaScript</b>, I harness tools like <b
+        >React</b
+      >, <b>Next.js</b>, <b>TypeScript</b>,
+      <b>Storybook</b>, and <b>Docker</b> to build scalable, maintainable solutions
+      for diverse clients. Career highlights include guiding my college team at our
+      <b>NASA Lunabotics</b> competition and sharpening my web-development expertise
+      at <b>Cellar Door</b>, where I partnered with cross-functional teams to
+      deliver high-quality, client-facing projects.
+    </p>
+  </header>
+  <section class="flex flex-col gap-1">
+    <h2
+      class="text-lg font-bold print:text-sm text-blue-200 print:text-blue-500"
+    >
+      Experience
+    </h2>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Cellar Door @ Garanimals & Easy-Peasy
+          <a href="https://www.easypeasy.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2024-01">January 2024</time> - Present
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Architected and maintained a <b>Next.js</b> platform that empowered non-technical
+        teams to author rich content and drive
+        <b>direct-to-consumer sales</b> which has serviced more than <b
+          >50,000 users</b
+        >. I helped lay the project's foundational architecture, worked in close
+        collaboration with our lead designer via
+        <b>Figma</b>, interfaced with <b>Drupal CMS</b> for content management and
+        integrated <b>Shopify's Storefront API</b> for e-commerce functionality.
+        On a daily basis, I enhanced performance by <b
+          >optimizing network requests</b
+        >, refactored repeated logic into <b>custom React hooks</b>
+        and delivered on new features.
+        <br />
+        <i>
+          [Next.js, React, HTML5, CSS3, TypeScript, SASS, Storybook, Drupal CMS,
+          Shopify Storefront API, Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Campbell Ewald @ Everbank
+          <a href="https://www.everbank.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2022-12/2024-02">December 2022 - February 2024</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Developed a <b>Next.js</b> front-end driven by <b>Contentstack CMS</b> to
+        enable content authors and maintained strict designs. I developed a library
+        of <b>reusable React components</b> that dynamically rendered CMS-sourced
+        data in alignment with design mockups, and engineered <b
+          >promise-based query helpers</b
+        > which logged errors for insight without interrupting CI builds. Collaborating
+        closely with Everbank's internal security and infrastructure teams, I navigated
+        <b>complex authentication layers</b> and adhered to stringent
+        <b>confidentiality protocols</b>, ensuring a secure, maintainable
+        codebase that empowered stakeholders to iterate on content with
+        confidence.
+        <br />
+        <i>
+          [Next.js, React, HTML5, CSS3, TypeScript, SASS, Storybook,
+          Contentstack CMS, Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Cellar Door @ Beef Jerky Experience
+          <a href="https://beefjerkyx.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2022-10/2023-01">October 2022 - January 2023</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        As the sole developer, I built a <b
+          >cross-platform React Native application</b
+        > that brought their brand to life on mobile devices. Leveraging <b
+          >Figma</b
+        > designs, I crafted a suite of <b>reusable components</b> with <b
+          >responsive layouts</b
+        > to ensure visual consistency and smooth user experiences across <b
+          >iOS and Android</b
+        >. To streamline delivery, I implemented <b>Expo-based CI pipelines</b>,
+        automating builds and deployments so we could quickly iterate on
+        features and push updates.
+        <br />
+        <i>
+          [Expo, React Native, TypeScript, Styled-Components, Storybook,
+          GraphQL, Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Cellar Door @ Factimize
+          <a href="https://patternviewer.ai" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2022-08/2023-10">August 2022 - October 2023</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Stepping into a <b>mature React codebase</b>, I tackled performance
+        bottlenecks in Factimize's data visualizer which had significant lag
+        under heavy data loads. I conducted a deep analysis of rendering
+        inefficiencies and optimized critical sections. Through strategic <b
+          >code modularization</b
+        > and targeted <b>performance profiling</b>, I reduced frame drops and
+        elevated the maximum visible data points, delivering a <b
+          >more responsive user experience</b
+        > without a full rewrite of the <b>legacy system</b>.
+        <br />
+        <i>[React, HTML5, CSS3, TypeScript, SASS, Material UI, GraphQL, Git]</i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Cellar Door @ Peloton & Precor
+          <a href="https://www.precor.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2022-05/2023-11">May 2022 - November 2023</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Joining an established React platform, I enabled Peloton & Precor's
+        marketing teams to author and update site content via <b
+          >Contentful CMS</b
+        >
+        while maintaining strict adherence to established brand guidelines. I partnered
+        closely with QA to elevate both visual fidelity and semantic accuracy, crafting
+        <b>reusable React components</b> that <b>reinforced accessibility</b> and
+        consistency across the application. Notably, I spearheaded the development
+        of the International Offices page: architecting a <b
+          >Google Maps integration</b
+        >
+        styled with brand-aligned colors, and designing interactive markers and info
+        panels to showcase global locations.
+        <br />
+        <i>
+          [Next.js, React, HTML5, CSS3, TypeScript, SASS, Styled-Components,
+          GraphQL, Storybook, Contentful, Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Onflo @ DirectKey
+          <a
+            href="https://www.onity.com/en/us/what-we-do/mobile-access/direct-key"
+            target="_blank"
+          >
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2021-01/2021-02">January 2021 - February 2021</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        As a contract front-end engineer for DirectKey, I designed and
+        implemented a <b>brand-aligned marketing page</b> to showcase their product
+        and drive user engagement.
+        <br />
+        <i>[HTML5, CSS3, Git]</i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center">
+        <h3
+          class="flex flex-row items-center gap-2 text-lg grow font-bold print:text-2xs"
+        >
+          Onflo @ Perfect Landing Rentals
+          <a href="https://www.perfectlandingrentals.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2018-06/2018-07">June 2018 - July 2018</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Gained hands-on <b>React experience</b> by architecting and implementing
+        <b>CRUD dashboard</b> features for Perfect Landing Rentals' admin portal.
+        <br />
+        <i>[React, HTML5, CSS3, JavaScript, Git]</i>
+      </p>
+    </ResumeSection>
+  </section>
+  <section class="flex flex-col gap-1">
+    <h2
+      class="text-lg font-bold print:text-sm text-blue-200 print:text-blue-500"
+    >
+      Education
+    </h2>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3 class="text-lg grow font-bold print:text-2xs">
+          <span class="break-keep whitespace-nowrap"
+            >Bachelors in Computer Science</span
+          >
+          <span class="break-keep whitespace-nowrap"
+            >@ Saginaw Valley State University</span
+          >
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019-09/2025-05">September 2019 - May 2025</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        While earning my degree, I sustained a <b>3.5 GPA</b> and excelled in advanced
+        algorithms, data structures, and systems courses. Immersed in the department's
+        collaborative culture, I co-hosted peer study groups and knowledge-sharing
+        workshops. Leveraging those connections, I led our <b>NASA Lunabotics</b
+        > team through the full lifecycle of designing, fabricating, and programming
+        a remote-controlled rover, culminating in competition at the <b
+          >Kennedy Space Center</b
+        > in Florida. I further broadened my technical knowledge by attending the
+        <b>Google Developer Festival</b> in Detroit, where I absorbed lectures on
+        emerging technologies and frameworks. Beyond academics, I served as <b
+          >President of the Cardinal Robotics Club</b
+        >,
+        <b>Vice President of the Google Developer Student Club</b> and volunteered
+        with our <b>Association of Computer Machinery</b> chapter to mentor high
+        school students in coding competitions.
+      </p>
+    </ResumeSection>
+  </section>
+  <section class="flex flex-col gap-1">
+    <h2
+      class="text-lg font-bold print:text-sm text-blue-200 print:text-blue-500"
+    >
+      Projects
+    </h2>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Neuraception
+          <a href="https://www.neuraception.com" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2024-08">August 2024</time> - Present
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        As <b>Cofounder and CTO</b>, I collaborate with my team to create
+        <b>full-stack, locally hosted systems</b> that log business data, leverage
+        <b>machine learning</b> for process optimization and deliver <b
+          >real-time statistical insights</b
+        > via intuitive front-end dashboards.
+        <br />
+        <i>
+          [Next.js, React, HTML5, CSS3, TypeScript, SASS, Storybook, Prisma ORM,
+          Python, Docker, Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Plato's Layout Optimization Tool
+          <a href="https://github.com/SVSU-Capstone25" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2024-08/2025-04">August 2024 - April 2025 </time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        As <b>Quality Assurance Lead</b>, on my capstone project, I guided my
+        team members to ensure quality and contributed over <b
+          >150,000 lines of front-end code</b
+        > to drive feature development.
+        <br />
+        <i>[Blazor, Bootstrap, Playwright, ASP.NET, MSSQL, Docker, Git]</i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Momo
+          <a href="https://github.com/claytonleonardcook/momo" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2021-09/2022-08">September 2021 - August 2022</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Developed a <b>locally hosted desktop music player</b> using <b
+          >Tauri, React, and Rust</b
+        > to deliver a <b>native-style</b> listening experience for my <b
+          >independent study</b
+        >.
+        <br />
+        <i>
+          [Tauri, React, HTML5, CSS3, TypeScript, SASS, Storybook, Rust, Git]</i
+        >
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Communalists
+          <a href="https://github.com/Communalists" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2021-09/2022-08">September 2021 - August 2022</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        <b>Volunteering</b> as a front-end developer, I architect and enhance <b
+          >mutual-aid dashboards</b
+        >, building new features and intuitive interfaces that <b
+          >streamline collaboration</b
+        > and <b>support community outreach</b>.
+        <br />
+        <i>
+          [Next.js, React, HTML5, CSS3, TypeScript, SASS, Storybook, Firebase,
+          Git]
+        </i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Pantry
+          <a
+            href="https://github.com/claytonleonardcook/pantry"
+            target="_blank"
+          >
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2020-09/2020-12">September 2020 - December 2020</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Developed a <b>React</b>, <b>single-page application</b> backed by <b
+          >Firebase</b
+        >
+        to create and synchronize online grocery lists in real time.
+        <br />
+        <i>[React, HTML5, CSS3, JavaScript, Firebase, Material UI, Git]</i>
+      </p>
+    </ResumeSection>
+    <ResumeSection>
+      <div class="flex flex-row items-center gap-2">
+        <h3
+          class="flex flex-row items-center gap-2 text-base grow font-bold print:text-2xs"
+        >
+          Dinr
+          <a href="https://github.com/jadeallencook/dinr" target="_blank">
+            <Icon
+              class="text-blue-200 print:text-blue-500"
+              name={"fa6-solid:arrow-up-right-from-square"}
+            />
+          </a>
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019-07/2020-03">July 2019 - March 2020</time>
+        </span>
+      </div>
+      <p class="text-base print:text-3xs">
+        Collaborated with a small team to create a <b>React application</b>,
+        backed by <b>Firebase</b>, that enabled users to discover and RSVP local
+        food events.
+        <br />
+        <i>[React, HTML5, CSS3, TypeScript, Firebase, Git]</i>
+      </p>
+    </ResumeSection>
+  </section>
+  <section class="flex flex-col gap-1">
+    <h2
+      class="text-lg font-bold print:text-sm text-blue-200 print:text-blue-500"
+    >
+      Activites & Accomplishments
+    </h2>
+    <ul class="list-none flex flex-col gap-1 text-2xs">
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          Quality Assurance Lead for Senior Capstone Project
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019/2025">2024 - 2025</time>
+        </span>
+      </li>
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          President of Cardinal Robotics Club
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019/2025">2022 - 2023</time></span
+        >
+      </li>
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          Vice President of Google Developer Student Club
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019/2025">2022 - 2023</time></span
+        >
+      </li>
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          Member & Workshop Leader for Association of Computer Machinery
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019/2025">2021 - 2025</time></span
+        >
+      </li>
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          Coach for Science Olympiad
+        </h3>
+        <span
+          class="text-base italic break-keep whitespace-nowrap print:text-3xs"
+        >
+          <time datetime="2019/2025">2019 - 2022</time></span
+        >
+      </li>
+      <li class="flex flex-row gap-2">
+        <h3 class="text-base grow font-bold print:text-2xs">
+          Computer Science Department Coding Competition
+        </h3>
+        <span class="text-base print:text-3xs">
+          <time datetime="2021">2021</time>,
+          <time datetime="2022">2022</time>,
+          <time datetime="2023">2023</time>
+        </span>
+      </li>
+    </ul>
+  </section>
+</ResumeLayout>

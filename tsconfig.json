@@ -1,15 +1,5 @@
 {
-  "extends": "astro/tsconfigs/base",
-  "exclude": ["node_modules"],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@atoms/*": ["src/components/atoms/*"],
-      "@molecules/*": ["src/components/molecules/*"],
-      "@pages/*": ["src/pages/*"]
-    },
-    "strictNullChecks": true
-  }
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
 }

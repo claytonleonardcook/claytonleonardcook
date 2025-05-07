@@ -1,0 +1,5 @@
+{
+    "redirects": [
+      { "source": "/", "destination": "/resume", "permanent": false }
+    ]
+  }

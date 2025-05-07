@@ -1,0 +1,21 @@
+---
+import "./src/styles/global.css";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body
+    class="bg-white dark:bg-gray-800 text-gray-900 dark:text-white flex justify-center"
+  >
+    <main
+      class="w-auto flex flex-col gap-2 my-16 mx-8 lg:w-3xl print:w-full print:m-0"
+    >
+      <slot />
+    </main>
+  </body>
+</html>

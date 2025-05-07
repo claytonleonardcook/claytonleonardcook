@@ -1,22 +1,3 @@
-<style>
-    h1,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    li,
-    ol {
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
-    }
-
-    .qr-codes {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-</style>
-
 # Clayton Leonard Cook | Software Engineer
 
 **Bay City, Michigan** | [claytonleonardcook@gmail.com](mailto:claytonleonardcook+work@gmail.com)

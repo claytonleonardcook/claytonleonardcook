@@ -6,7 +6,7 @@
 
 July&nbsp;2025 - Present
 
-As a key member of the Kuiper Project, I am developing a web portal that enables third-party users to integrate with Amazon's Kuiper service. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. I've focused on re-architecting components for modularity and simplifying logic to reduce the overall lines of code. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
+As a key member of the Kuiper Project, I am developing a web portal that enables third-party users to integrate with Amazon's Kuiper service. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. Furthermore, I've also worked closely with other developers within peer programming groups to gain further knowledge of the Amazon ecosystem. I've focused on re-architecting components for modularity and simplifying logic to reduce the overall lines of code. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
 
 ### **[Cellar&nbsp;Door](https://www.cellar-door.io/) @ [Garanimals & Easy-Peasy](https://www.easypeasy.com)** | Remote
 
@@ -70,7 +70,7 @@ As Cofounder and CTO, I collaborate with my team to create full-stack, locally h
 
 August&nbsp;2024 - April&nbsp;2025
 
-As Quality Assurance Lead, on my capstone project, I guided my team members to ensure quality and contributed over 150,000 lines of front-end code to drive feature development.
+As Quality Assurance Lead, on my capstone project, I guided my team members to ensure quality and contributed over 150,000 lines of front-end code to drive feature development. Furthermore, I spent countless hours doing ensemble and peer programming between multiple teams to bring the final product to the finish line.
 
 ### [Momo](https://github.com/claytonleonardcook/momo)
 

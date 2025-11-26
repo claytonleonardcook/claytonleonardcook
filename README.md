@@ -4,7 +4,7 @@
 
 ### **[Amazon](https://www.amazon.com/) @ [Project Kuiper](https://www.aboutamazon.com/what-we-do/devices-services/project-kuiper)** | Hybrid
 
-July&nbsp;2025 - Present
+July&nbsp;2025 - March&nbsp;2026
 
 As a key member of the Kuiper Project, I am developing a web portal that enables third-party users to integrate with Amazon's Kuiper service. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. Furthermore, I've also worked closely with other developers within peer programming groups to gain further knowledge of the Amazon ecosystem. I've focused on re-architecting components for modularity and simplifying logic to reduce the overall lines of code. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
 

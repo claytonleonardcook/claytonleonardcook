@@ -6,7 +6,7 @@
 
 July&nbsp;2025 - Present
 
-Within Amazon Leo, I spearheaded the development of a web portal for third-party service integration, focusing on modular architecture and logic simplification. I integrated LLM-based tools into our CI/CD pipeline to automate the generation of unit tests and accessibility checks, significantly increasing our overall test coverage. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. Working within peer programming groups, I shared best practices for LLM-prompt engineering to accelerate code reviews and architectural prototyping. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
+Within Amazon Leo, I spearheaded the development of a web portal for third-party service integration, focusing on modular architecture and logic simplification. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
 
 ### **[Cellar&nbsp;Door](https://www.cellar-door.io/) @ [Garanimals & Easy-Peasy](https://www.easypeasy.com)** | Remote
 

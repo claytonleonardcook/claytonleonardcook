@@ -4,7 +4,7 @@
 
 ### **[Amazon](https://www.amazon.com/) @ [Amazon Leo](https://leo.amazon.com/)** | Hybrid
 
-July&nbsp;2025 - Present
+July&nbsp;2025 - April&nbsp;2026
 
 Within Amazon Leo, I spearheaded the development of a web portal for third-party service integration, focusing on modular architecture and logic simplification. I have collaborated with cross-functional teams, including product, design, and back-end, to align the application with Amazon's specifications. To streamline development for my team, I authored comprehensive documentation covering onboarding essentials and coding standards. I am also an advocate for improving the application's test coverage and ensuring a more accessible user experience.
 

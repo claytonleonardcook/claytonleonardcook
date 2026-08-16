@@ -1,0 +1,50 @@
+{
+  "formatter": {
+    "external": {
+      "command": "prettier",
+      "arguments": ["--stdin-filepath", "{buffer_path}"],
+    },
+  },
+  "lsp": {
+    "deno": {
+      "settings": {
+        "deno": {
+          "enable": true,
+          "suggest": {
+            "completeFunctionCalls": true,
+            "imports": {
+              "autoDiscover": true,
+            },
+          },
+        },
+      },
+    },
+  },
+  "languages": {
+    "HTML": {
+      "show_completions_on_input": true,
+      "format_on_save": "on",
+      "language_servers": ["!tailwindcss-language-server"],
+    },
+    "CSS": {
+      "show_completions_on_input": true,
+      "language_servers": ["!tailwindcss-language-server"],
+    },
+    "Astro": {
+      "show_completions_on_input": true,
+      "format_on_save": "on",
+      "language_servers": [
+        "astro-language-server",
+        "!tailwindcss-language-server",
+      ],
+    },
+    "JSONC": {
+      "format_on_save": "on",
+      "language_servers": [
+        "json-language-server",
+        "!tailwindcss-language-server",
+        "!astro-language-server",
+      ],
+    },
+  },
+}

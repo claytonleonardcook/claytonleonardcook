@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "claytonleonardcook",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -20,5 +20,9 @@
   },
   "allowScripts": {
     "esbuild": false
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
